@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    var apiKey = '6b71e45e81339efb68c7b8d995519887'
+    var apiKey = 'config.SECRET_KEY'
 
 
     $('form').submit(function () {
