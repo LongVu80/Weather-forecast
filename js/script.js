@@ -9,7 +9,7 @@ $(document).ready(function(){
 
         $.get(url, function (res) {
             console.log(res)
-            var htmlString = `<h1>${cityString}</h1><p>Nhiệt Độ: ${res.main.temp}&#8457;</p>`
+            var htmlString = `<h1>${cityString}</h1><p>Nhiệt Độ: ${res.main.temp}&#8451;</p>`
             htmlString+= `<p>Dự Báo: ${res.weather[0].description}</p><p>Tốc Độ Gió: ${res.wind.speed} km/giờ</p>`
             $('#forecast').html(htmlString);
 
